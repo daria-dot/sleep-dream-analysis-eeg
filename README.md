@@ -1,9 +1,9 @@
 # sleep-dream-analysis-eeg
 classification of the dream cycle from an EEG dataset, as well as anomaly detection
 │
-├── /data/                  # Raw and processed data ( .gitignore to avoid pushing large files)
-│   ├── /raw/               # Raw data files (EEG signals from Kaggle )
-│   ├── /processed/         # Preprocessed data (
+├── /data/                  # Raw and processed data 
+│   ├── /raw/               # Raw data files ( from Kaggle )
+│   ├── /processed/         # Preprocessed data 
 features, segmented data)
 │   └── README.md           # Instructions for dataset usage and preprocessing steps
 │
@@ -16,7 +16,7 @@ features, segmented data)
 ├── /src/                   # Source code for the project
 │   ├── /preprocessing/     # Scripts for data preprocessing
 │   │   ├── filter_data.py  # Filtering EEG signals
-│   │   ├── extract_features.py  # Feature extraction (e.g., PSD, wavelet)
+│   │   ├── extract_features.py  # Feature extraction 
 │   │   └── segment_data.py   # Segmenting EEG into epochs
 │   ├── /model/             # Model building and training scripts
 │   │   ├── train_model.py   # Training the ML model
@@ -34,7 +34,7 @@ features, segmented data)
 ├── /models/                # Trained machine learning models (e.g., .h5 files)
 │   └── model.h5            # Trained model file (e.g., LSTM or Autoencoder)
 │
-├── /results/               # Results (e.g., plots, evaluation metrics, logs)
+├── /results/               # Results 
 │   ├── /plots/             # Plots of model performance, feature importance, etc.
 │   ├── evaluation_metrics.txt  # Performance evaluation results (accuracy, loss, etc.)
 │   └── logs/               # Logs from training and evaluation
